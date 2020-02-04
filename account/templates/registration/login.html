@@ -1,0 +1,21 @@
+{% extends 'registration/base.html' %}
+{% block title %}
+  Войти
+{% endblock title %}
+
+{% block content %}
+<div class="row">
+    <form action="" method="POST">
+        {{ form }}
+        {% csrf_token %}
+        <div class="row">
+            <input type="submit" value="Войти" class="btn btn-danger mx-auto">
+        </div>        
+    </form>
+</div>
+<div class="row">
+    <a href="{% url 'password_reset' %}" class="mx-auto">Забыли пароль?</a>
+</div>
+
+
+{% endblock content %}

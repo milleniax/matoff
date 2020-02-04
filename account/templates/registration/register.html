@@ -1,0 +1,19 @@
+{% extends "registration/base.html" %}
+
+{% block title %}
+Регистрация
+{% endblock title %}
+
+{% block content %}
+<div class="row">
+    <form action="#" method="POST">
+        {% csrf_token %}
+        {{ user_form }}
+        <div class="row">
+            <input type="submit" value="Регистрация" class="btn btn-danger mx-auto">
+        </div>
+    </form>
+</div>
+
+
+{% endblock content %}

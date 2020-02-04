@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DCBAF6 !important;
+}
+
+.pop_up{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: #fff;
+
+    width: 50% !important ;
+    height:50%;
+
+    border-radius: 10px;
+
+}
+
+
+.row{
+    height:100%;
+    vertical-align: center;
+}
+.about{
+    text-align: center;
+    vertical-align: center;
+    background-color: #FF5959;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    color: #fff;
+}
+
+.logo{
+    width:30%;
+    height:30%;
+
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+
+
+.form .row{
+    height: fit-content;
+    margin-bottom: 8%;
+}
+
+.form{
+    height: 100%;
+}
+
+
+
+.form .sign a{
+    text-decoration: none;
+    color: #000;
+}
+form{
+    width: fit-content;
+    text-align: center;
+}
+form label{
+    display: none;
+}
+form #id_username{
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+form #id_password{
+    margin-bottom: 10%;
+}
+
+.form .sign a::after{
+    content: "";
+    height: 3px;
+    display: none;
+    background-color: #000;
+}
+
+.form .sign a:first-child::after{
+    width: 45px;
+}
+
+.form .sign a:last-child::after{
+    width: 90px;
+}
+
+.form .sign a:hover::after{
+    display: block;
+    
+}
+
+form .helptext{
+    display: none;
+}
+
+form #id_email{
+    margin-bottom: 5%;
+}
+
