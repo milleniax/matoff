@@ -5,5 +5,117 @@
 {% endblock title %}
 
 {% block content %}
-  <span>Hello, {{ user }}</span>
+    <div class="container">
+        <aside class="left-side">
+            <div class="logo">
+                <h2>MatOFF</h2>
+                <img src="img/image4.svg" alt="">
+            </div>
+            <div class="menu">
+                <div class="menu__avatar">
+                    <img src="img/Ellipse1.svg" alt="">
+                    <div class="avatar-right">
+                        <p>milleniax</p>
+                        <div class="right__bottom">
+                            <p>Гуру</p>
+                            <img src="img/Rectangle2.svg" alt="">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="menu__list">
+                    <ul class="list-main">
+                        <li class="list__item">
+                            <img src="" alt="">
+                            <p>Главная</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="" alt="">
+                            <p>Тренажеры</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="" alt="">
+                            <p>Словарь</p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn menu_btn">Выйти</button>
+            </div>
+        </aside>
+        <main class="center-side">
+            <h2>Уровень</h2>
+            <div class="center-side__main">
+                <div class="center__top">
+                    <div class="block-left">
+                        <div class="left__top">
+                            <p>Гуру</p>
+                            <p>19 500 xp</p>
+                        </div>
+                        <img src="img/Rectangle3.svg" alt="">
+                    </div>
+                    <div class="block-right">
+                        <img src="img/Vector.svg" alt="">
+                        <p>Лучше 45% пользователей</p>
+                    </div>
+                </div>
+                <div class="center__middle">
+                    <div class="middle-top">
+                        <h3>План дня</h3>
+                        <button class="btn btn_center">Начать</button>
+                    </div>
+                    <div class="middle-cards">
+                        <div class="card">
+                            <img src="img/Ellipse2.svg" alt="">
+                            <p>Тренировка</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/Ellipse2.svg" alt="">
+                            <p>Тренировка</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/Ellipse2.svg" alt="">
+                            <p>Тренировка</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="center__bottom">
+                    <h3>Активность</h3>
+                    <img src="img/Chart.svg" alt="" id="chart">
+                </div>
+            </div>
+        </main>
+        <aside class="right-side">
+            <h2>Аналитика</h2>
+            <div class="block-analitics_top">
+                <p>Smth</p>
+            </div>
+            <div class="block-analitics_bottom">
+                <h3>Прогресс тренировок</h3>
+                <ul class="list-analitics">
+                    <li class="list__item">
+                        <p>1</p>
+                        <p>Название тренировки</p>
+                        <p>10%</p>
+                    </li>
+                    <li class="list__item">
+                        <p>1</p>
+                        <p>Название тренировки</p>
+                        <p>10%</p>
+                    </li>
+                    <li class="list__item">
+                        <p>1</p>
+                        <p>Название тренировки</p>
+                        <p>10%</p>
+                    </li>
+                    <li class="list__item">
+                        <p>1</p>
+                        <p>Название тренировки</p>
+                        <p>10%</p>
+                    </li>
+    
+                </ul>
+            </div>
+        </aside>
+    </div>
+
 {% endblock content %}
