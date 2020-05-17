@@ -1,1 +1,1 @@
-web: gunicorn matoff.wsgi --log-file -
+web: gunicorn matoff.wsgi --preload
